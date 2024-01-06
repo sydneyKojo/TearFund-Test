@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "FS";
+    src: url('https://res.cloudinary.com/tearfund/raw/upload/v1664533753/General/Fonts/FSMeWeb-Regular_rcfffc.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: "FSBold";
+    src: url('https://res.cloudinary.com/tearfund/raw/upload/v1664533752/General/Fonts/FSMeWeb-Bold_ce2eoa.woff2') format('woff2');
+  }
+* {
+  font-family: FS;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+#app {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #173145;
+  ;
+}
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+#banner {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  min-height: 680px;
+}
+
+.card {
+  background-color: white;
+  padding: 2.4rem;
+  border-radius: 15px;
+  text-align: left;
+  margin: 1rem;
+}
+
+.card-title {
+  font-family: FSBold;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0px;
+  color: #333;
+}
+
+.card-content {
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #757575;
+}
+
+.card-btn {
+  color: white;
+  background-color: #008caa;
+  border: 0;
+  border-radius: 5px;
+  padding: 1rem 2.427rem;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.col-4 {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    .col-4 {
+        width: 33.33%;
+    }
+}
